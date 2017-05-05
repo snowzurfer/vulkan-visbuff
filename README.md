@@ -8,6 +8,10 @@ Industry mentor: Dr Matthäus G. Chajdas
 Implementation of a Visibility Buffer renderer using the AMD GCN extensions.
 Developed as part of my honours project.
 
+## License
+MIT.  
+See [LICENSE](https://github.com/snowzurfer/vulkan-visbuff/blob/master/LICENSE).
+
 ## Prerequisites:
 * Git LFS
 * Vulkan SDK and Vulkan drivers
