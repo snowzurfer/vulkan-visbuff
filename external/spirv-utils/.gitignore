@@ -1,0 +1,12 @@
+/Project/build
+/build
+/__pycache__
+*.pyc
+/excluded_code
+.vim_session
+*.bkp
+.ctags
+/tags
+*.swp
+*.un~
+compile_commands.json
