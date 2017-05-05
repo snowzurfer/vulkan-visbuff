@@ -11,3 +11,4 @@
 *.un~
 compile_commands.json
 *.TMP
+/assets/models/*
