@@ -301,13 +301,6 @@ void ValidationState_t::RegisterCapability(SpvCapability cap) {
       features_.declare_float16_type = true;
       features_.free_fp_rounding_mode = true;
       break;
-    case SpvCapabilityVariablePointers:
-      features_.variable_pointers = true;
-      features_.variable_pointers_storage_buffer = true;
-      break;
-    case SpvCapabilityVariablePointersStorageBuffer:
-      features_.variable_pointers_storage_buffer = true;
-      break;
     default:
       break;
   }
