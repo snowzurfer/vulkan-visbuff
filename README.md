@@ -12,13 +12,13 @@ Developed as part of my honours project.
 MIT.  
 See [LICENSE](https://github.com/snowzurfer/vulkan-visbuff/blob/master/LICENSE).
 
-## Prerequisites:
+## Prerequisites
 * Git LFS
 * Vulkan SDK and Vulkan drivers
 * CMake
 * Models: https://goo.gl/ajpMH0
 
-## Basic structure:
+## Basic structure
 Two binaries are produced:
 * vksagres-deferred
 * vksagres-visbuffer
@@ -26,7 +26,7 @@ Two binaries are produced:
 One library is produced which is linked against the executables to provide
 common functionalities.
 
-## Cloning and building:
+## Cloning and building
 #### Debug
 * Clone the repository
 * Download the models and unpack them in the folder `assets\models\` so that
@@ -47,7 +47,7 @@ the path to the model files looks like this:
 * Repeat steps for Debug but change the build type to **Release** and create
 a separate folder called `release` into `build`
 
-## Drivers:
+## Drivers
 Vulkan drivers and other related resources can be found at https://www.khronos.org/vulkan/
 
 ## Usage
